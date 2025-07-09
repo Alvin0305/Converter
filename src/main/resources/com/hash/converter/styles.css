@@ -1,0 +1,94 @@
+.root {
+    -fx-font-family: "Comic Sans MS";
+}
+
+.selector-button {
+    -fx-cursor: hand;
+    -fx-background-color: #151515;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+
+.selector-button:hover {
+    -fx-background-color: #202020;
+}
+
+.selector-button-text {
+    -fx-fill: white;
+}
+
+.background {
+    -fx-background-color: black;
+    -fx-padding: 10;
+}
+
+.heading {
+    -fx-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 20;
+}
+
+.drop-down {
+    -fx-background-color: #151515;
+    -fx-font-size: 14;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+    -fx-color: white;
+}
+
+.combo-box .list-cell {
+    -fx-text-fill: white;
+    -fx-background-color: #151515;
+    -fx-cursor: hand;
+
+}
+
+.combo-box-popup .list-view {
+    -fx-control-inner-background: #151515;
+    -fx-background-color: #151515;
+    -fx-cell-hover-color: #222222;
+    -fx-cursor: hand;
+}
+
+.convertor-box {
+    -fx-background-color: #151515;
+    -fx-padding: 10;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+
+.back-button {
+    -fx-background-color: transparent;
+    -fx-border: none;
+    -fx-cursor: hand;
+    -fx-padding: 10;
+}
+
+.back-button:hover {
+    -fx-background-color: #202020;
+}
+
+.text-field {
+    -fx-background-color: black;
+    -fx-padding: 20 10;
+    -fx-text-fill: white;
+    -fx-font-size: 20;
+}
+
+.num-pad-button {
+    -fx-background-color: #151515;
+    -fx-border-radius: 30;
+    -fx-background-radius: 30;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 16;
+    -fx-cursor: hand;
+}
+
+.num-pad-button:hover {
+    -fx-background-color: #202020;
+}
+
+.num-pad-action-button {
+    -fx-background-color: red;
+}
